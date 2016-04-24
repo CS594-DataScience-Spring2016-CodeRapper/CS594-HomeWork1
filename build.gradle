@@ -37,5 +37,5 @@ uploadArchives {
 task run(type: JavaExec) {
     classpath = sourceSets.main.runtimeClasspath
 
-    main = 'org.gradle.Application'
+    main = 'core.Application'
 }
